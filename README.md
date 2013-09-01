@@ -5,8 +5,8 @@ kakaotalk module is a python wrapper for LOCO protocol.
 
 You can install this module using pip:
 
-	pip install kakaotalk
-	easy_install kakaotalk
+	pip install kakao
+	easy_install kakao
 
 ## Quick Start Guide ##
 
@@ -15,7 +15,7 @@ You can install this module using pip:
 
 First of all, you need a KakaoTalk account. Then, you have to find out 'duuid', 'sKey', and 'user_id' for your KakaoTalk account. If you need some help to extract these info from your account, see [this post](http://www.bpak.org/blog/2011/06/kakaotalk-bypassing-ssl-2/). When you are prepared, you need to specify these info to kakaotalk module. For example:
 
-	from kakaotalk import kakaotalk as kakao
+	from kakao import kakao
 
 	kakao.duuid = 'YOUR_DUUID'
 	kakao.sKey = 'YOUR_SKEY'
